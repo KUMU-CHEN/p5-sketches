@@ -55,7 +55,7 @@ function setupUI() {
     button.position(width, 180);
     button.mousePressed(refreshMap);
 
-    saveButton = createButton('save');
+    saveButton = createButton('Save');
     saveButton.position(width, 220);
     saveButton.mousePressed(saveMap)
     // button.mousePressed(greet);
